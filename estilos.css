@@ -1,4 +1,11 @@
 h1{
-    color: blue;
-    background-color: brown;
+    color:#ffffff
+
+}
+.contenedor{
+text-align: center;
+}
+.texto-con-fondo{
+display: inline-block;
+background-color: black;
 }
