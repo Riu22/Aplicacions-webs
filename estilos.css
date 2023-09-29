@@ -9,3 +9,7 @@ text-align: center;
 display: inline-block;
 background-color: black;
 }
+.texto{
+    display: inline-block;
+    background-color: aqua;
+}
