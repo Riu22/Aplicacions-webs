@@ -1,15 +1,8 @@
 h1{
-    color:#ffffff
+  font-weight: bold; 
 
 }
-.contenedor{
-text-align: center;
-}
-.texto-con-fondo{
-display: inline-block;
-background-color: black;
-}
-.color{
-    display: inline-block;
-    background-color: aqua;
+h2{
+    font-weight: bold;
+
 }
