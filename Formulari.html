@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h1>Exercici, formulari de registre</h1>
+        <div>
+            <label for="Nom">Nom:</label>
+            <input id="Nom" type="text" required>
+            <label for="Apellidos">Llinatges:</label>
+            <input id="Apellidos" type="text" required>
+        </div>
+        <div>
+            <label for="Home">Home:</label>
+            <input type="radio" name="Sexe" id="Home">
+            <label for="Dona">Dona:</label>
+            <input type="radio" name="Sexe" id="Dona">
+            <label for="Altre">Altre:</label>
+            <input type="radio" name="Sexe" id="Altre">
+        </div>
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" name="email" id="Email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required placeholder="El teu Email">
+            <label for="Password">Contrasenya:</label>
+            <input type="password" id="Password" required minlength="5" maxlength="10">
+        </div>
+        <div><label for="Naixament">Data de Naixament:</label>
+        <input type="date" id="Naixament" required>
+        </div>
+        <div>
+            <label for="Check">Estic d'acord amb els termes i condicions</label>
+            <input type="checkbox" id="Check" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
