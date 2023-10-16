@@ -8,3 +8,45 @@ div{
   background-color: rgb(0, 255, 13);
 
 }
+
+.dias{
+  background-color: aqua;
+
+}
+.encabezado{
+  color: #ffffff;
+  background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.horas{
+    background-color: darkred;
+    color: cyan;
+}
+.patio{
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
+}
+.servells{
+  background-color: #00ff40;
+  color: #ff0000;
+
+}
+.seguretat{
+  background-color: deeppink;
+  color: #000000;
+  font-family: cursive;
+}
+.web{
+  background-color: #000000;
+}
+.web:hover{
+  background-color: #ffee00;
+  color: #ffffff;
+}
+.eie{
+  background-color: #ff0000;
+}
+.sistemes{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 0, 212);
+}
