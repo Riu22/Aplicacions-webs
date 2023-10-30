@@ -6,6 +6,7 @@ body {
     font-family: Arial, sans-serif;
     width: 1440px;
     height: 1024px;
+    flex: auto;
 }
 
 header {
