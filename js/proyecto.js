@@ -1,17 +1,14 @@
-function openPopup() {
-    document.getElementById("popup").style.display = "block";
-}
+const btnAbrirModal =
+document.querySelector("#btn-abrir-modal");
+const btnCerrarModal =
+document.querySelector("#btn-cerrar-modal");
+const modal =
+document.querySelector("#modal");
 
-function closePopup() {
-    document.getElementById("popup").style.display = "none";
-}
+btnAbrirModal.addEventListener("click",()=>{
+    modal.showmodal();
+})
 
-document.getElementById("openPopupButton").addEventListener("click", openPopup);
-document.getElementById("closePopupButton").addEventListener("click", closePopup);
-
-window.addEventListener("click", function(event) {
-    var popup = document.getElementById("popup");
-    if (event.target === popup) {
-        closePopup();
-    }
-});
+btnCerrarModal.addEventListener("click",()=>{
+    modal.closest();
+})
