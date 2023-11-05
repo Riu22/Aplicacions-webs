@@ -1,14 +1,27 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&family=Red+Hat+Text:wght@700&display=swap');
 
 .todo {
     position: relative;
     max-width: 1400;
     background: linear-gradient(180deg, #B02A2A 0%, #A11B1B 50%, #741616 75% , #ff3d3d21 250%);
+=======
+body {
+    background: linear-gradient(180deg, #B02A2A 0%, #A11B1B 15.94%, rgba(255, 52, 52, 0.13) 100%);
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 1440px;
+    height: 1024px;
+    flex: auto;
+>>>>>>> 890dfae2dfd19eeb6597f5fb6ca4b6d53d789b38
 }
 
 header {
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     flex-direction: row;
 }
 
@@ -205,3 +218,65 @@ margin-bottom: 70px;
 .inferior{
     height: 100px;
 }
+=======
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.Groovy, .search, .library {
+    fill: #E7FFDE;
+    width: 2rem;
+    height: 2rem;
+}
+
+.Groovy {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.library {
+    float: right;
+    margin-right: 1rem;
+}
+
+.search {
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.imagen_puta {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+}
+
+.titulo {
+    color: #FFF;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.texto {
+    color: #F6F6F6;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.boton {
+    background: #000;
+    color: #FFF;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+}
+
+.boton:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+>>>>>>> 890dfae2dfd19eeb6597f5fb6ca4b6d53d789b38
