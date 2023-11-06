@@ -1,3 +1,4 @@
-let name = prompt('escribe tu nombre: ')
-let age = prompt('posa la teva edad: ')
-let apellido = promp('posa la teva edad: ')
+let name = prompt('Escribe tu nombre: ');
+let age = prompt('Pon tu edad: ');
+let apellido = prompt('Pon tu apellido: ');
+console.log(`Hola ${name} mi señor, tienes ${age} años. Bienvenido a la familia ${apellido}`);
